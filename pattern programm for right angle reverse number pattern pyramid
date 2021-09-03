@@ -1,0 +1,18 @@
+#python program for right angle reverse nmber patter program
+a = 1
+b = 2
+current_num = b
+for row in range(2, 6):
+    for col in range(a,b):
+        current_num -= 1
+        print(current_num, end=' ')
+    print("\n")
+    a = b
+    b += row
+    current_num = b
+    
+    #output
+ 1 
+3 2 
+6 5 4 
+10 9 8 7 
