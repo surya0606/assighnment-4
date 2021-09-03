@@ -1,0 +1,19 @@
+#pyton programm for right angle triange pattern with number
+depth = 6
+for number in range(depth):
+    for i in range(number):
+        print(number, end=" ")
+    print("\n")
+    
+    
+    
+   #output
+1 
+
+2 2 
+
+3 3 3 
+
+4 4 4 4 
+
+5 5 5 5 5 
