@@ -1,0 +1,16 @@
+#python programm for pyrammid of numbers
+rows=4
+num=0
+for i in range(0,rows):
+   for j in range(0,rows-i-1):
+       print(" ",end=" ")
+   for j in range(0,i*2+1):
+       num=i+1;
+       print(num,end=" ")
+   print()
+   
+   #output
+      1 
+    2 2 2 
+  3 3 3 3 3 
+4 4 4 4 4 4 4
